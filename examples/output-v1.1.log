@@ -1,0 +1,35 @@
+Burn tax amount:  Coins { _coins: { uluna: Coin { denom: 'uluna', amount: 120000 } } }
+Gas and Fee estimate, pre-tax:
+Fee {
+  gas_limit: 155736,
+  payer: '',
+  granter: '',
+  amount: Coins { _coins: { uluna: [Coin] } }
+}
+Coins { _coins: { uluna: Coin { denom: 'uluna', amount: 882245 } } }
+Gas and Fee estimate, post tax:
+Fee {
+  gas_limit: 155736,
+  payer: '',
+  granter: '',
+  amount: Coins { _coins: { uluna: [Coin] } }
+}
+Coins { _coins: { uluna: Coin { denom: 'uluna', amount: 1002245 } } }
+{
+  txhash: 'D4C773B8A439B1EE95110A8319C5D31EAC1CDE1CB42A8E0319ACB66D9FBA31CE',
+  raw_log: '[{"events":[{"type":"coin_received","attributes":[{"key":"receiver","value":"terra1l75p2y5rha7ru7389yqu4cn4yremerd57c4694"},{"key":"amount","value":"10000000uluna"}]},{"type":"coin_spent","attributes":[{"key":"spender","value":"terra1x4567r79wj679n5tnshfmjt3xwfkhfk6rpwwfh"},{"key":"amount","value":"10000000uluna"}]},{"type":"message","attributes":[{"key":"action","value":"/cosmos.bank.v1beta1.MsgSend"},{"key":"sender","value":"terra1x4567r79wj679n5tnshfmjt3xwfkhfk6rpwwfh"},{"key":"module","value":"bank"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"terra1l75p2y5rha7ru7389yqu4cn4yremerd57c4694"},{"key":"sender","value":"terra1x4567r79wj679n5tnshfmjt3xwfkhfk6rpwwfh"},{"key":"amount","value":"10000000uluna"}]}]}]',
+  gas_wanted: 155736,
+  gas_used: 85540,
+  height: 10664205,
+  logs: [
+    TxLog {
+      msg_index: 0,
+      log: '',
+      events: [Array],
+      eventsByType: [Object]
+    }
+  ],
+  code: 0,
+  codespace: '',
+  timestamp: '2022-09-30T15:32:25Z'
+}
